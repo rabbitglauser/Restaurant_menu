@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 2px solid #eaeaea;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin: 0;
+    color: #8B0000; /* Dark Red for a classic French touch */
+}
+
+header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin: 0;
+    color: #555;
+}
+
+/* Menu Section Styles */
+.menu-section {
+    margin: 40px 0;
+}
+
+.menu-section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #8B0000;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-image {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list li {
+    padding: 20px 0;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dish-name {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    flex: 2;
+}
+
+.dish-description {
+    font-style: italic;
+    color: #777;
+    flex: 3;
+}
+
+.dish-price {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    flex: 1;
+    text-align: right;
+}
+
+/* Hover Effects */
+.menu-list li:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dish-name:hover {
+    color: #8B0000;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #eaeaea;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #555;
+}
